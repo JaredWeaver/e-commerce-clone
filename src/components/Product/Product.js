@@ -6,7 +6,6 @@ const Product = ({ id, price, image, title, rating }) => {
 
     const [{ basket }, dispatch] =useStateValue();
 
-console.log('basket', basket)
 
     const addToBasket = () =>{
         dispatch({
